@@ -1,0 +1,37 @@
+/* ItemDetailContainer.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .product-details h2 {
+    margin-top: 0;
+  }
+  
+  .product-details p {
+    margin: 10px 0;
+  }
+  
+  .product-details button {
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #888;
+  }
+  

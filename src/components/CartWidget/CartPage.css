@@ -1,0 +1,70 @@
+/* CartPage.css */
+
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cart-item {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item .item-name {
+  flex: 2;
+  margin-right: 10px;
+}
+
+.quantity-controls {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item button {
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.item-price {
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.checkout-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Estilo para ocultar la línea en la clase empty-cart */
+.empty-cart {
+  text-decoration: none; /* Elimina la decoración de texto (enlace subrayado) */
+  border-bottom: none; /* Elimina la línea inferior */
+}

@@ -1,0 +1,44 @@
+/* ItemList.css */
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .item {
+    flex: 0 0 calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .item h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .item p {
+    font-size: 1rem;
+  }
+  
+  .item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .item button:hover {
+    background-color: #0056b3;
+  }
+  
